@@ -1,0 +1,64 @@
+.followers-card {
+    background: var(--card-bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--text-main-color);
+    font-size: .80rem;
+    font-weight: 600;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 1rem 0;
+    height: 100%;
+}   
+    .facebook {
+        border-top: solid 6px var(--facebook-color);
+    }
+    .twitter {
+        border-top: solid 6px var(--twitter-color);
+    }
+    .instagram {
+        border-top: solid 6px transparent; 
+        border-image: var(--instagram-color);
+    }
+    .youtube {
+        border-top: solid 6px var(--youtube-color);
+    }
+
+    img {
+        width: 1rem;
+        margin: 5px;
+    }
+    .arrow {
+        width: .75rem;
+        margin: 5px;
+    }
+
+    .icon-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .secondary-text {
+        color: var(--text-secondary-color);
+    }
+    .number-followers {
+        margin: 1rem 0;
+    }
+        .numbers {
+            font-size: 4.5rem;
+            font-weight: 600;
+            line-height: 100%;
+        }
+        .follow-text {
+            font-size: 1.25rem;
+            font-weight: 400;
+            letter-spacing: 3px;
+        }
+    .rise {
+        color: var(--text-rise-color);
+    }
+    .descent {
+        color: var(--text-descent-color);
+    }

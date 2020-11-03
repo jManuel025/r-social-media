@@ -1,5 +1,43 @@
+:root {
+    --main-bg-color: #1D2029;
+    --card-bg-color: #252A41;
+    --text-main-color: #F1F1F1;
+    --text-secondary-color: #8B97C6;
+    --text-rise-color: #1DB489;
+    --text-descent-color: #DC414C;
+    --facebook-color: #1976D2;
+    --twitter-color: #03A9F4;
+    --instagram-color: linear-gradient(90deg, rgba(255,203,0,1) 0%, rgba(255,1,2,1) 50%, rgba(219,0,170,1) 100%) 1;
+    --youtube-color: #FF0000;
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    background: var(--main-bg-color);
+}
+    .container {
+        height: calc(50vh - 2rem);
+        margin: 1rem;
+        display: grid;
+    }
+        .header {
+            grid-area: 1 / 2 / 2 / 8;
+            padding: 1rem 0;
+        }
+        .content {
+            gap: 2rem;
+            margin: 1rem 0;
+            display: grid;
+        }
+h1 {
+    color: var(--text-main-color);
+}
+h4 { 
+    color: var(--text-secondary-color);
 }

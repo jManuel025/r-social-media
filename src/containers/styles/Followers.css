@@ -1,0 +1,13 @@
+#followers-container {
+    grid-template: repeat(4, 1fr) / repeat(8, 1fr);
+}
+    #followers-content {
+        grid-area: 2 / 2 / 5 / 8;
+        grid-template: none / repeat(4, 1fr);
+    }
+    .theme-switch {
+        grid-area: 1 / 7 / 2 / 8;
+        justify-self: center;
+        align-self: center;
+        color: var(--text-main-color);
+    }

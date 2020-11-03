@@ -1,0 +1,7 @@
+#overview-container {
+    grid-template: repeat(6, 1fr) / repeat(8, 1fr);
+}
+    #overview-content {
+        grid-area: 2 / 2 / 7 / 8;
+        grid-template: none / repeat(4, 1fr);
+    }
