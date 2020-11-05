@@ -1,7 +1,17 @@
 :root {
-    --main-bg-color: #1D2029;
-    --card-bg-color: #252A41;
-    --text-main-color: #F1F1F1;
+    /* Dark theme */
+    --main-bg-color-dark: #1D2029;
+    --card-bg-color-dark: #252A41;
+    --text-main-color-dark: #F1F1F1;
+    /*  */
+    /* --main-bg-color-dark: #F1F1F1;
+    --card-bg-color-dark: #FFFFFF;
+    --text-main-color-dark: #1D2029; */
+    /* Light theme */
+    --main-bg-color-light: #F1F1F1;
+    --card-bg-color-light: #FFFFFF;
+    --text-main-color-light: #1D2029;
+    /* Base colors */
     --text-secondary-color: #8B97C6;
     --text-rise-color: #1DB489;
     --text-descent-color: #DC414C;
@@ -19,27 +29,24 @@
 }
 
 body {
-    background: var(--main-bg-color);
+    background: var(--main-bg-color-dark);
 }
     .container {
-        /* background: black; */
         height: calc(50vh - 2rem);
         margin: 1rem;
         display: grid;
     }
         .header {
-            /* background: green; */
             grid-area: 1 / 2 / 2 / 8;
             padding: 1rem 0;
         }
         .content {
-            /* background: pink; */
             gap: 2rem;
             margin: 1rem 0;
             display: grid;
         }
 h1 {
-    color: var(--text-main-color);
+    color: var(--text-main-color-dark);
 }
 h4 { 
     color: var(--text-secondary-color);

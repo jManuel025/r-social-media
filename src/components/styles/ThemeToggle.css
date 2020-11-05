@@ -1,0 +1,20 @@
+.theme-switch > img {
+    margin: 0 1rem;
+}
+
+.toggle {
+    background: var(--card-bg-color-dark);
+    height: 30px;
+    width: 60px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    padding: 2px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+    .circle {
+        background: var(--main-bg-color-light);
+        border-radius: 50px;
+        width: 26px;
+        height: 26px;
+    }
