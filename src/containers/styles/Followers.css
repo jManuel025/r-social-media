@@ -1,5 +1,5 @@
 #followers-container {
-    grid-template: repeat(4, 1fr) / repeat(8, 1fr);
+    grid-template: repeat(4, auto) / repeat(8, 1fr);
 }
     #followers-content {
         grid-area: 2 / 2 / 5 / 8;
@@ -26,4 +26,10 @@
             align-self: center;
             color: var(--text-main-color);
         }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+    #followers-content {
+        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    }
 }

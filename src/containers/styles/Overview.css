@@ -1,5 +1,5 @@
 #overview-container {
-    grid-template: repeat(6, 1fr) / repeat(8, 1fr);
+    grid-template: repeat(6, auto) / repeat(8, 1fr);
 }
     #overview-content {
         grid-area: 2 / 2 / 7 / 8;
@@ -14,4 +14,10 @@
             grid-area: 2 / 1 / 7 / 2;
             grid-template: repeat(8, 1fr) / none;
         }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+    #overview-content {
+        grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+    }
 }
