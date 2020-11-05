@@ -5,3 +5,13 @@
         grid-area: 2 / 2 / 7 / 8;
         grid-template: none / repeat(4, 1fr);
     }
+
+@media only screen and (max-width: 600px){
+    #overview-container {
+        grid-template: repeat(6, auto) / none;
+    }
+        #overview-content {
+            grid-area: 2 / 1 / 7 / 2;
+            grid-template: repeat(8, 1fr) / none;
+        }
+}

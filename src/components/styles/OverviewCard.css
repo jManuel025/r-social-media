@@ -19,3 +19,10 @@ h2 {
     width: .8rem;
     margin: 5px;
 }
+
+
+@media only screen and (max-width: 600px){
+    .overview-card {
+        padding: 2rem;
+    }
+}

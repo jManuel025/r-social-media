@@ -11,3 +11,19 @@
         align-self: center;
         color: var(--text-main-color);
     }
+
+@media only screen and (max-width: 600px){
+    #followers-container {
+        grid-template: repeat(6, auto) / none;
+    }
+        #followers-content {
+            grid-area: 3 / 1 / 7 / 2;
+            grid-template: repeat(4, 1fr) / none;
+        }
+        .theme-switch {
+            grid-area: 2 / 1 / 3 / 2;
+            justify-self: end;
+            align-self: center;
+            color: var(--text-main-color);
+        }
+}

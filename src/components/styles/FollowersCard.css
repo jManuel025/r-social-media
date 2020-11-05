@@ -13,17 +13,17 @@
     height: 100%;
 }   
     .facebook {
-        border-top: solid 6px var(--facebook-color);
+        border-top: solid 5px var(--facebook-color);
     }
     .twitter {
-        border-top: solid 6px var(--twitter-color);
+        border-top: solid 5px var(--twitter-color);
     }
     .instagram {
-        border-top: solid 6px transparent; 
+        border-top: solid 5px transparent; 
         border-image: var(--instagram-color);
     }
     .youtube {
-        border-top: solid 6px var(--youtube-color);
+        border-top: solid 5px var(--youtube-color);
     }
 
     img {
